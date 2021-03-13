@@ -1,0 +1,41 @@
+.container{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  background: aqua;
+  height: 100px;
+}
+.nari {
+  background: orange;
+  flex-grow: 2;
+  margin-right: 15px;
+}
+main {
+  background: red;
+  position: relative;
+  flex-grow: 4;
+}
+.lila {
+  background: purple;
+  flex-grow: 2;
+  margin-left: 15px;
+}
+#gomb {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border: 0;
+  position: absolute;
+  bottom: 25px;
+  right: 20px; 
+}
+footer {
+  background: blue;
+  height: 100px;
+}
+.middle {
+  display: flex;
+  height: 700px;
+}
